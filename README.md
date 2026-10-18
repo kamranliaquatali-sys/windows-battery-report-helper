@@ -42,6 +42,10 @@ If PowerShell blocks the script, you can use Windows' command directly instead:
 powercfg /batteryreport /output "$env:USERPROFILE\Desktop\battery-report.html"
 ```
 
+### If the command fails
+
+If `powercfg` returns an error such as `0x422`, "not recognized as the name of a cmdlet" or "Invalid Parameters", see [Windows battery report error messages and fixes](https://batteryhealthlab.com/guides/windows-11-battery-report-not-working.html#error-messages). On Windows 10, the [Windows 10 battery report guide](https://batteryhealthlab.com/guides/battery-report-windows-10.html) covers the Win + X route and the Command Prompt vs PowerShell syntax.
+
 ## Diagnose Modern Standby drain with SleepStudy
 
 On a PC that supports `Standby (S0 Low Power Idle)`, run:
@@ -63,6 +67,8 @@ The most useful values are:
 - **Cycle count:** the number of complete charge cycles, when the manufacturer reports it.
 
 For a simpler summary, open the free [Battery Health Lab analyzer](https://batteryhealthlab.com/) and select the generated HTML report. Analysis runs in your browser, and the report stays on your device.
+
+To understand a specific result, read [Is 80% battery health good for a laptop?](https://batteryhealthlab.com/guides/is-80-percent-battery-health-good.html). Dell, HP and Lenovo laptops also include their own battery tests; see [how to check battery health on Dell, HP and Lenovo](https://batteryhealthlab.com/guides/check-battery-health-dell-hp-lenovo.html).
 
 ## Privacy
 
