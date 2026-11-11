@@ -70,6 +70,16 @@ For a simpler summary, open the free [Battery Health Lab analyzer](https://batte
 
 To understand a specific result, read [Is 80% battery health good for a laptop?](https://batteryhealthlab.com/guides/is-80-percent-battery-health-good.html). Dell, HP and Lenovo laptops also include their own battery tests; see [how to check battery health on Dell, HP and Lenovo](https://batteryhealthlab.com/guides/check-battery-health-dell-hp-lenovo.html).
 
+## Free calculators and real battery data
+
+Once you have a battery report, these free browser tools answer the next question. They run locally and don't upload anything:
+
+- [Battery life calculator](https://batteryhealthlab.com/tools/laptop-battery-runtime-calculator.html): estimate runtime from capacity and the power draw shown in the report's Battery usage section.
+- [mAh to Wh converter](https://batteryhealthlab.com/tools/mah-to-wh-converter.html): compare a replacement battery with your design capacity and check the 100 Wh airline limit.
+- [Charger wattage checker](https://batteryhealthlab.com/tools/laptop-charger-wattage-checker.html): see whether a charger can keep up with your laptop or will let it drain while plugged in.
+
+All tools are listed on the [Battery Health Lab tools page](https://batteryhealthlab.com/tools/). To compare your numbers with real laptops, see the [real laptop battery report data](https://batteryhealthlab.com/data/real-laptop-battery-reports.html) from four Windows laptops (CSV, CC BY 4.0).
+
 ## Privacy
 
 These scripts only call the built-in Windows `powercfg` utility and write HTML files to locations you choose. Review scripts before running them, especially when downloaded from the internet.
